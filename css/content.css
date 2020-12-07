@@ -1,0 +1,67 @@
+
+		div.gamecontent {
+			margin: auto;
+			width: 960px;
+		}
+		div.broken,
+		div.missing {
+			margin: auto;
+			position: relative;
+			top: 50%;
+			width: 293px;
+		}
+		div.broken a,
+		div.missing div {
+			position: relative;
+			top: -51px;
+			display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+		div.missing a {
+			height: 63px;
+			width:193px;
+			position: relative;
+			top: -31px;
+			display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+		div.broken img,
+		div.missing img {
+			border-width: 0px;
+		}
+		div.broken {
+			display: none;
+		}
+
+		button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#416ceb 0%,
+		#69affa);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#416ceb),
+		to(#69affa));
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 1px solid #2878f0;
+	-moz-box-shadow:
+		0px 1px 3px rgba(055,120,250,0.5),
+		inset 0px 0px 1px rgba(051,102,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(055,120,250,0.5),
+		inset 0px 0px 1px rgba(051,102,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(055,120,250,0.5),
+		inset 0px 0px 1px rgba(051,102,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(050,081,235,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}

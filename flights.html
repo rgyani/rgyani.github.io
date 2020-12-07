@@ -1,0 +1,27 @@
+<h3 class="main-heading"><span>Setup flight alerts</span></h3>
+<div id="flight-status"></div>
+<form action="" id="flights-form" class="form">
+    <p>
+        <label for="idFrom">From: </label>
+        <input id="idFrom"  type="text" class="input">
+    </p>
+    <p>
+        <label for="idTo">To: </label>
+        <input id="idTo" type="text" class="input">
+    </p>
+    <p>
+        <label for="idDate">Earliest Travel Date: </label>
+        <input id="idDate" type="text" class="input">
+    </p>
+    <p>
+        <label for="idMinTravelDays">Min Travel Days: </label>
+        <input id="idMinTravelDays"type="number" min="1" max="90" class="input" value="10">
+    </p>
+    <p>
+        <label for="idPassengers">Passengers: </label>
+        <input id="idPassengers"type="number" min="1" max="90" class="input" value="1">
+    </p>
+    <input type="submit" name="submit" value="Send your message" class="submit">
+</form>
+<script type="text/javascript" src="js/airports.js"></script>
+<script type="text/javascript" src="js/flights.js"></script>
